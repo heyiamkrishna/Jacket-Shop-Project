@@ -99,23 +99,26 @@ h3 {
 
 .elem1 i,
 .elem2 i,
-.elem3 i{
+.elem3 i {
     font-size: 2vw;
     opacity: 0;
 }
 
-.elem1 i:hover{
+.elem1 i:hover {
     opacity: 1;
     transition: all ease-in-out 0.3ms;
 
 }
-.elem2 i:hover{
+
+.elem2 i:hover {
     opacity: 1;
 }
-.elem3 i:hover{
+
+.elem3 i:hover {
     opacity: 1;
 }
-#bottom-img{
+
+#bottom-img {
     margin-top: 6vw;
     background-image: url(./images/img.jpg);
     background-position: 0px 50%;
@@ -123,4 +126,122 @@ h3 {
     background-repeat: no-repeat;
     height: 45%;
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #nav {
+        margin-top: 2.5vw;
+        /* background-color: red; */
+    }
+
+    #nav {
+        margin-top: 2vw;
+        padding: 1vw;
+        align-items: center;
+    }
+
+    #nav ul {
+        display: flex;
+
+    }
+
+    #nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    li {
+        text-transform: capitalize;
+        list-style: none;
+        margin-right: 20px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2vw;
+        align-items: center;
+    }
+
+    .nav-icon {
+        padding: auto;
+        background-color: #181616;
+        color: white;
+        padding: 1vw;
+        border-radius: 50%;
+    }
+
+    #center {
+        margin: 4vw 8vw;
+
+    }
+
+    #center h4 {
+        font-size: 6vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    }
+
+    #center-in {
+        margin-top: 3vw;
+
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+    
+    }
+
+    .center-left-p {
+        padding: 1.5vw;
+        width: 80%;
+        /* background-color: red; */
+
+    }
+
+    #center-right {
+        margin-top: 3vw 4vw;
+        display: flex;
+        /* background-color: blue; */
+        width:80%;
+        flex-direction: column-reverse;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+
+    
+.elem1,
+.elem2,
+.elem3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-transform: capitalize;
+    border-bottom: 2px solid rgb(92, 76, 76);
+    margin-bottom: 1.2vw;
+
+}
+
+h3 {
+    font-size: 6vw;
+    font-family: cursive;
+    color: rgb(48, 44, 44);
+}
+
+
+.elem1 i,
+.elem2 i,
+.elem3 i {
+    font-size: 4.5vw;
+    opacity: 0;
+}
+#bottom-img {
+    margin-top: 6vw;
+    background-image: url(./images/img.jpg);
+    background-position: 0px 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:35%;
+    width: 100%;
+}
 }
