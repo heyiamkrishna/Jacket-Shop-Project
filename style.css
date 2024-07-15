@@ -106,10 +106,21 @@ h3 {
 
 .elem1 i:hover{
     opacity: 1;
+    transition: all ease-in-out 0.3ms;
+
 }
 .elem2 i:hover{
     opacity: 1;
 }
 .elem3 i:hover{
     opacity: 1;
+}
+#bottom-img{
+    margin-top: 6vw;
+    background-image: url(./images/img.jpg);
+    background-position: 0px 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45%;
+    width: 100%;
 }
