@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(253, 241, 241);
+}
+
+
+#nav {
+    margin-top: 2vw;
+    padding: 1vw;
+}
+
+#nav ul {
+    display: flex;
+    /* background-color: green; */
+
+    justify-content: flex-end;
+}
+
+li {
+    /* background-color: blue; */
+    text-transform: capitalize;
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2vw;
+}
+
